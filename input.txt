@@ -1,0 +1,55 @@
+import mathematical.h
+import exchangeInfo.h
+
+main:
+{
+	INTEGER a,b,c,d;
+	a=10;
+	b=1;
+	c=5;
+	d=25;
+
+	
+	PRINTLN(2^3);
+	PRINTLN(GCD(a,c));
+	PRINTLN(LCM(a,d));
+	PRINTLN(SQRT(d));
+
+
+	FOR (1,5)
+	{
+		PRINTLN(2^3);	
+	}
+
+	
+
+	PRINTLN(LOG(16));
+	PRINTLN(LOG10(100000));
+	
+	PRINTLN(TAN(45));
+	PRINTLN(BIGMOD(1252,121544,2345));
+	PRINTLN(FACT(c));
+
+	##This is single line comment
+	!! This is multiple line comment, Hello there !!
+
+	
+	
+	SWITCH(c)
+	{
+		CASE 1: PRINTLN(3^3); BREAK;
+		CASE 2: PRINTLN(4); BREAK;
+		DEFAULT : PRINTLN(5);
+	}
+	
+	IF ( 3 )
+	{
+		PRINTLN(5+2);
+	}
+	ELSE
+	{
+		PRINTLN(10);
+	}
+	
+}	
+
